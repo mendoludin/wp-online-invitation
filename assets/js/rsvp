@@ -1,0 +1,8 @@
+jQuery(document).ready(function($) {
+    $('.wpoi-rsvp-form').on('submit', function(e) {
+        if (!$(this).find('input[name="guest_email"]').val()) {
+            alert('Email harus diisi!');
+            e.preventDefault();
+        }
+    });
+});
