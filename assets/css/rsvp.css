@@ -1,0 +1,13 @@
+.wpoi-rsvp-entry {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.wpoi-rsvp-entry h3 {
+    margin-top: 0;
+}
+.wpoi-rsvp-entry ul {
+    list-style: none;
+    padding: 0;
+}
